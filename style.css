@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+/* 
+    rgb(31,42,72)
+    rgb(0,120,251)
+*/
+
+*{
+    font-family: 'Quicksand';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+}
+
+body{
+    background-color: rgb(20,28,47);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: auto 30px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 38px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 44px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.search-section{
+    background-color: rgb(31,42,72);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+
+.search{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-input{
+    width: 525px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#todo-input::placeholder{
+    color: white;
+}
+
+.btn{
+    padding: 10px 25px;
+    background-color: rgb(0,120,251);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.main-section{
+    display: none;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(31,42,72);
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.main2{
+    padding: 15px;
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(20,28,47);
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+
+.main4{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.avatar{
+    border-radius: 150px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.address, .github, .twitter{
+    padding: 5px 0px;
+}
+
+.element{
+    padding: 15px;
+}
